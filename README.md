@@ -1,4 +1,4 @@
-# 🎬 Movie Recommendation Engine (MRE)
+# 🎬 Movie Recommendation Engine (MRE) Agent
 
 This repository contains the Movie Recommendation Engine (MRE): a small Streamlit app that demonstrates an agentic, chain-of-thought (CoT) pattern with structured outputs and a mock "tool" for fetching movie metadata. The app uses the OpenAI-compatible client for Google Gemini (via the compatibility OpenAI-style endpoint) to show how an LLM can plan, call tools, observe results, and synthesize a final recommendation.
 
@@ -89,12 +89,4 @@ When adding networked tools, be careful to validate and sanitize external respon
 
 ## License
 
-MIT — see LICENSE (if you add one). If you want a different license, add it to the repo.
-
----
-
-If you'd like, I can also:
-- Add a short `README` badge and shield links.
-- Create a `.streamlit/secrets.toml.example` file and a tiny `run_local.ps1` helper script to simplify startup.
-
-Tell me which of those you want next.
+MIT — LICENSE
